@@ -33,7 +33,6 @@ function myReduce(collection, alert, acc) {
     return acc
 }
 
-
 function myFind(collection, predicate) {
    for (let i = 0; i < collection.length; i++) {
     if (predicate(collection[i])) {
